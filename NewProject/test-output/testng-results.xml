@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-04T14:03:12 IST" name="Default suite" finished-at="2023-09-04T14:09:18 IST" duration-ms="365936">
+    <groups>
+    </groups>
+    <test started-at="2023-09-04T14:03:12 IST" name="Default test" finished-at="2023-09-04T14:09:18 IST" duration-ms="365936">
+      <class name="testCase.TC01">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:03:12 IST" name="BeforeMethod" finished-at="2023-09-04T14:03:50 IST" duration-ms="38192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyLogin()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:03:50 IST" name="VerifyLogin" finished-at="2023-09-04T14:04:07 IST" duration-ms="16776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:04:07 IST" name="AfterMethod" finished-at="2023-09-04T14:04:07 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:04:07 IST" name="BeforeMethod" finished-at="2023-09-04T14:04:59 IST" duration-ms="51461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="checkScrolling()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:04:59 IST" name="checkScrolling" finished-at="2023-09-04T14:05:19 IST" duration-ms="20475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkScrolling -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:05:19 IST" name="AfterMethod" finished-at="2023-09-04T14:05:19 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:05:19 IST" name="BeforeMethod" finished-at="2023-09-04T14:05:59 IST" duration-ms="39644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="checkaddtocart()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:05:59 IST" name="checkaddtocart" finished-at="2023-09-04T14:06:01 IST" duration-ms="2279" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="button" loader="" is="toggle-button" aria-controls="product-template--16161731608738__featured-collections-collection-1-491481694250-drawer" aria-expanded="false" class="product-item__cta button button--secondary hidden-phone">...</button> is not clickable at point (345, 42). Other element would receive the click: <a class="header__linklist-link link--animated" href="#" aria-controls="desktop-menu-3" aria-expanded="false">...</a>
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-H9QUOJ0Q', ip: '192.168.108.253', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce3903fadad2f299f64c875b8e90b163, clickElement {id=E5977B949B286533D987F4C82E81ADA9_element_68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SAMINA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57010}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57010/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ce3903fadad2f299f64c875b8e90b163)] -> xpath: //*[@id="block-template--16161731608738__featured-collections-collection-1"]/div[1]/div/product-item[1]/div[2]/div[2]/button[1]]
+Session ID: ce3903fadad2f299f64c875b8e90b163]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" loader="" is="toggle-button" aria-controls="product-template--16161731608738__featured-collections-collection-1-491481694250-drawer" aria-expanded="false" class="product-item__cta button button--secondary hidden-phone">...</button> is not clickable at point (345, 42). Other element would receive the click: <a class="header__linklist-link link--animated" href="#" aria-controls="desktop-menu-3" aria-expanded="false">...</a>
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-H9QUOJ0Q', ip: '192.168.108.253', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce3903fadad2f299f64c875b8e90b163, clickElement {id=E5977B949B286533D987F4C82E81ADA9_element_68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SAMINA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57010}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57010/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ce3903fadad2f299f64c875b8e90b163)] -> xpath: //*[@id="block-template--16161731608738__featured-collections-collection-1"]/div[1]/div/product-item[1]/div[2]/div[2]/button[1]]
+Session ID: ce3903fadad2f299f64c875b8e90b163
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.MyAccountPage.verifyGetaddtocart(MyAccountPage.java:44)
+at testCase.TC01.checkaddtocart(TC01.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkaddtocart -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:06:01 IST" name="AfterMethod" finished-at="2023-09-04T14:06:02 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:06:02 IST" name="BeforeMethod" finished-at="2023-09-04T14:06:49 IST" duration-ms="47700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="verifyCookiesHandle()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:06:49 IST" name="verifyCookiesHandle" finished-at="2023-09-04T14:06:50 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesHandle -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:06:50 IST" name="AfterMethod" finished-at="2023-09-04T14:06:50 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:06:50 IST" name="BeforeMethod" finished-at="2023-09-04T14:07:39 IST" duration-ms="49672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="verifyMouseHover()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:07:39 IST" name="verifyMouseHover" finished-at="2023-09-04T14:07:40 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMouseHover -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:07:40 IST" name="AfterMethod" finished-at="2023-09-04T14:07:40 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:07:40 IST" name="BeforeMethod" finished-at="2023-09-04T14:09:07 IST" duration-ms="87228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="verifyWindowhandle()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:09:07 IST" name="verifyWindowhandle" finished-at="2023-09-04T14:09:18 IST" duration-ms="10666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWindowhandle -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCase.TC01@2e385cce]" started-at="2023-09-04T14:09:18 IST" name="AfterMethod" finished-at="2023-09-04T14:09:18 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- testCase.TC01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
